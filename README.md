@@ -1,7 +1,6 @@
 # WoC-Project-Ideas
-A list of project ideas for [Winter of Code](https://winterofcode.com/) organized by DSC-NSEC.
-
-Interested WoC participants can contact us on our [Discord](https://discord.gg/6vcMy5zvGD) server.
+* A list of project ideas for [Winter of Code](https://winterofcode.com/) organized by DSC-NSEC.
+* Interested WoC participants can contact us on our [Discord](https://discord.gg/6vcMy5zvGD) server.
 
 ## Fake-Stream
 
@@ -26,7 +25,7 @@ Interested WoC participants can contact us on our [Discord](https://discord.gg/6
 
       * Tech Stack: FFMPEG libraries for C and Python.
 
-  4. *Pitch your own Idea!*
+  4. **Pitch your own Idea!**
 
 *Maximum Ideas to be selected for this project:* 2
 
