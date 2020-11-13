@@ -29,3 +29,23 @@
 
 *Maximum Ideas to be selected for this project:* 2
 
+## DSC-IEM Blogs
+
+* *Project link:* https://github.com/dsc-iem/blog
+* *Mentors:* [Aritra Sen](https://github.com/asrient)
+
+### Description
+
+Blogging for our community, a blogging website where anyone can write blogs, read, like and comment. Follow your favourite authors and get a home page with personalized suggestions
+
+### Project Ideas
+
+1. A detailed page for visitors traffic for every blog post. 
+2. Add a footer for every page. 
+3. New layout of blog items for pages like popular, trending, new arrivals. 
+4. Show notifications on homepage when someone replies to your comment or likes, comments on your posts, along with a dismiss button (It should give a summary of all updates like 3 new like, 2 comments on this post etc) 
+5. Check image URLs format before saving (for profile image and blog picture) 
+6. Implement a way to embed items like a tweet or youtube video (oembed) 
+7. Style account related pages (AllAuth pages) like forgot password, connect social accounts
+8. **Pitch your own Idea!**
+
