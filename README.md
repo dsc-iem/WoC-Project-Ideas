@@ -28,5 +28,5 @@ Interested WoC participants can contact us on our [Discord](https://discord.gg/6
 
   4. *Pitch your own Idea!*
 
-*Maxium Ideas to be selected for this project:* 2
+*Maximum Ideas to be selected for this project:* 2
 
