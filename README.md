@@ -49,3 +49,21 @@ Blogging for our community, a blogging website where anyone can write blogs, rea
 7. Style account related pages (AllAuth pages) like forgot password, connect social accounts
 8. **Pitch your own Idea!**
 
+## Text Sentiment Analysis
+
+* *Project link:* https://github.com/khanfarhan10/TextSentimentAnalysis
+* *Mentors:* [Farhan Hai Khan](https://github.com/khanfarhan10) & [Tannistha Pal](https://github.com/paltannistha)
+
+### Description
+
+Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Negative/Positive Content Detection and further classification accordingly to Overwhelming Speech, Appreciation Speech, Demoralising Speech and Hate Speech. Deployed on the Cloud using Streamlit on the Heroku Platform.
+
+### Project Ideas
+
+1. Add models with higher accuracies than the basic and intermediate ones provided with deployment. 
+2. Better UI with customized look (in Flask). 
+3. Better utility tools for uploading a zipfile and getting an excel sheet with a workbook of respective txt files etc. 
+4. More analysis based improvement such as decorating nouns, verbs, etc. 
+5. Providing utility applications such as summarization, paraphradsing etc. 
+6. Deploy to an Android App (Flutter).
+7. **Pitch your own Innovative Ideas!**
