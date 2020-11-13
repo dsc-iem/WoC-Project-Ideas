@@ -29,6 +29,40 @@
 
 *Maximum Ideas to be selected for this project:* 2
 
+## Python Reverse Shell
+
+* *Project link:* https://github.com/whokilleddb/Reverse-Shell
+* *Mentors:* [Debjeet Banerjee](https://github.com/whokilleddb/Reverse-Shell)
+
+>Reverse Shell For Command And Control with Extended Functionality
+
+**Description:**  A [standard reverse shell](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) in python is mostly limited to primitive command execution. Often, a simple STDERR can terminate the remote session, which isn't a favourable scenario for a hacker. Here, the aim is to provide a more stable C&C framework.
+
+### Project Ideas
+  1. **Adding Encryption:**
+   So far, the program doesn't have an encryption method for outgoing/incoming byte streams. An added layer of encryption would be instrumental in preventing detection by AV engines.
+
+      * Tech Stack: Python
+
+  2. **Adding Persistence:**
+   Adding persistence by creating executables or as scripts to trigger the program at runtime.
+
+      * Tech Stack: Bash, Batch, Python.
+
+  3. **Add Keylogging And Webcam Hijack Modules:** 
+   Add Keylogging and Webcam hijack functionalities which run on a different thread (not along the main thread).
+
+      * Tech Stack: Python.
+
+  4. **Automated Recon :** 
+   An automated script to gather system information and perform auto recon on potential attack vectors which can be gathered from websites like (Gtfobin)[https://gtfobins.github.io/].
+
+      * Tech Stack: Python.
+
+  4. **Pitch your own Idea!**
+
+*Maximum Ideas to be selected for this project:* 2
+
 ## DSC-IEM Blogs
 
 * *Project link:* https://github.com/dsc-iem/blog
@@ -60,10 +94,55 @@ Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Ne
 
 ### Project Ideas
 
-1. Add models with higher accuracies than the basic and intermediate ones provided with deployment. 
+1. Add models with higher accuracies than the basic and intermediate ones provided with deployment (preferred : tensorflow 2.x, keras & pytorch DNNs). 
+      * Tech Stack: Python Deep Learning with NLP - Keras, Tensorflow , Pytorch etc.
 2. Better UI with customized look (in Flask). 
+      * Tech Stack: Python Flask with HTML5 & CSS3 for Frontend Support.
 3. Better utility tools for uploading a zipfile and getting an excel sheet with a workbook of respective txt files etc. 
+      * Tech Stack: Python Zipfile Handling, Pandas & Numpy.
 4. More analysis based improvement such as decorating nouns, verbs, etc. 
-5. Providing utility applications such as summarization, paraphradsing etc. 
+      * Tech Stack: Python Core NLP : Training on Datasets.
+5. Providing utility applications such as summarization, paraphrasing etc. 
+      * Tech Stack: Python Utilities with NLP.
 6. Deploy to an Android App (Flutter).
-7. **Pitch your own Innovative Ideas!**
+      * Tech Stack: Android Studio, Dart with Flutter.
+7. **Pitch in your own Innovative Ideas!**
+*Maximum Ideas to be selected for this project:* 5
+=======
+## rake_new2
+
+* *Project link :* https://github.com/BALaka-18/rake_new2
+* *Maintainer :* [Balaka Biswas](https://github.com/BALaka-18)
+
+>Python library that for simple and fast keyword extraction from any text.
+
+**Description :** `rake_new2` is a Python library that enables simple and fast keyword extraction from any text. This library works on the RAKE(Rapid Automatic Keyword Extraction) algorithm. It tries to determine the key phrases in a text by calculating the co-occurrences of every word in a key phrase and also its frequency in the entire text.
+
+**New in v1.0.5 :**
+
+1. Handles repetitive keywords/key-phrases
+
+2. Handles consecutive punctuations.
+
+3. Handles HTML tags in text : The user is allowed an option to choose if they want to keep HTML tags as keywords too.
+
+### Project Ideas
+  1. **Sentiment scoring :**
+   Add sentiment scoring alongside word-degree score, to summarize emotion of the entire text based on the extracted keywords.(Specific details can be discussed)
+
+      * Tech Stack: Python.
+
+  2. **Spell-check feature :** Implementing automatic spell-check using NLP and Deep Learning (Specific details can be discussed).
+      * Tech Stack: Python (Pre-requisite : NLP, Deep Learning, Tensorflow).
+
+  3. **Topic Prediction module :** Add Topic prediction module in the library (Specific details can be discussed).
+
+      * Tech Stack: Python (Pre-requisite : Deep Learning, LDA(Latent Dirichlet Allocation)).
+  
+  4. **Documentation  :** Writing official documentation for readthedocs.org (Specific details can be discussed).
+
+      * Tech Stack: None (Pre-requisite : Markdown and must know/learn procedure of documentation in readthedocs.org).
+
+  4. **Pitch your own Idea!**
+
+*Maximum Ideas to be selected for this project:* 2
