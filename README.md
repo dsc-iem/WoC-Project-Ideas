@@ -106,9 +106,8 @@ Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Ne
       * Tech Stack: Python Utilities with NLP.
 6. Deploy to an Android App (Flutter).
       * Tech Stack: Android Studio, Dart with Flutter.
-7. **Pitch in your own Innovative Ideas!**
+7. **Pitch in your own Innovative Ideas!**  
 *Maximum Ideas to be selected for this project:* 5
-=======
 ## rake_new2
 
 * *Project link :* https://github.com/BALaka-18/rake_new2
