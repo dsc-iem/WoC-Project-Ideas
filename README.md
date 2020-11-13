@@ -29,3 +29,38 @@
 
 *Maximum Ideas to be selected for this project:* 2
 
+
+## Python Reverse Shell
+
+* *Project link:* https://github.com/whokilleddb/Reverse-Shell
+* *Mentors:* [Debjeet Banerjee](https://github.com/whokilleddb/Reverse-Shell)
+
+>Reverse Shell For Command And Control with Extended Functionality
+
+**Description:**  A [standard reverse shell](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) in python is mostly limited to primitive command execution. Often, a simple STDERR can terminate the remote session, which isn't a favourable scenario for a hacker. Here, the aim is to provide a more stable C&C framework.
+
+### Project Ideas
+  1. **Adding Encryption:**
+   So far, the program doesn't have an encryption method for outgoing/incoming byte streams. An added layer of encryption would be instrumental in preventing detection by AV engines.
+
+      * Tech Stack: Python
+
+  2. **Adding Persistence:**
+   Adding persistence by creating executables or as scripts to trigger the program at runtime.
+
+      * Tech Stack: Bash, Batch, Python.
+
+  3. **Add Keylogging And Webcam Hijack Modules:** 
+   Add Keylogging and Webcam hijack functionalities which run on a different thread (not along the main thread).
+
+      * Tech Stack: Python.
+
+  4. **Automated Recon :** 
+   An automated script to gather system information and perform auto recon on potential attack vectors which can be gathered from websites like (Gtfobin)[https://gtfobins.github.io/].
+
+      * Tech Stack: Python.
+
+  4. **Pitch your own Idea!**
+
+*Maximum Ideas to be selected for this project:* 2
+
