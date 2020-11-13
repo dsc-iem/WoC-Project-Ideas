@@ -49,3 +49,40 @@ Blogging for our community, a blogging website where anyone can write blogs, rea
 7. Style account related pages (AllAuth pages) like forgot password, connect social accounts
 8. **Pitch your own Idea!**
 
+## rake_new2
+
+* *Project link :* https://github.com/BALaka-18/rake_new2
+* *Maintainer :* [Balaka Biswas](https://github.com/BALaka-18)
+
+>Python library that for simple and fast keyword extraction from any text.
+
+**Description :** `rake_new2` is a Python library that enables simple and fast keyword extraction from any text. This library works on the RAKE(Rapid Automatic Keyword Extraction) algorithm. It tries to determine the key phrases in a text by calculating the co-occurrences of every word in a key phrase and also its frequency in the entire text.
+
+**New in v1.0.5 :**
+
+1. Handles repetitive keywords/key-phrases
+
+2. Handles consecutive punctuations.
+
+3. Handles HTML tags in text : The user is allowed an option to choose if they want to keep HTML tags as keywords too.
+
+### Project Ideas
+  1. **Sentiment scoring :**
+   Add sentiment scoring alongside word-degree score, to summarize emotion of the entire text based on the extracted keywords.(Specific details can be discussed)
+
+      * Tech Stack: Python.
+
+  2. **Spell-check feature :** Implementing automatic spell-check using NLP and Deep Learning (Specific details can be discussed).
+      * Tech Stack: Python (Pre-requisite : NLP, Deep Learning, Tensorflow).
+
+  3. **Topic Prediction module :** Add Topic prediction module in the library (Specific details can be discussed).
+
+      * Tech Stack: Python (Pre-requisite : Deep Learning, LDA(Latent Dirichlet Allocation)).
+  
+  4. **Documentation  :** Writing official documentation for readthedocs.org (Specific details can be discussed).
+
+      * Tech Stack: None (Pre-requisite : Markdown and must know/learn procedure of documentation in readthedocs.org).
+
+  4. **Pitch your own Idea!**
+
+*Maximum Ideas to be selected for this project:* 2
