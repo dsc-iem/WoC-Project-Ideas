@@ -83,6 +83,31 @@ Blogging for our community, a blogging website where anyone can write blogs, rea
 7. Style account related pages (AllAuth pages) like forgot password, connect social accounts
 8. **Pitch your own Idea!**
 
+## Text Sentiment Analysis
+
+* *Project link:* https://github.com/khanfarhan10/TextSentimentAnalysis
+* *Mentors:* [Farhan Hai Khan](https://github.com/khanfarhan10) & [Tannistha Pal](https://github.com/paltannistha)
+
+### Description
+
+Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Negative/Positive Content Detection and further classification accordingly to Overwhelming Speech, Appreciation Speech, Demoralising Speech and Hate Speech. Deployed on the Cloud using Streamlit on the Heroku Platform.
+
+### Project Ideas
+
+1. Add models with higher accuracies than the basic and intermediate ones provided with deployment (preferred : tensorflow 2.x, keras & pytorch DNNs). 
+      * Tech Stack: Python Deep Learning with NLP - Keras, Tensorflow , Pytorch etc.
+2. Better UI with customized look (in Flask). 
+      * Tech Stack: Python Flask with HTML5 & CSS3 for Frontend Support.
+3. Better utility tools for uploading a zipfile and getting an excel sheet with a workbook of respective txt files etc. 
+      * Tech Stack: Python Zipfile Handling, Pandas & Numpy.
+4. More analysis based improvement such as decorating nouns, verbs, etc. 
+      * Tech Stack: Python Core NLP : Training on Datasets.
+5. Providing utility applications such as summarization, paraphrasing etc. 
+      * Tech Stack: Python Utilities with NLP.
+6. Deploy to an Android App (Flutter).
+      * Tech Stack: Android Studio, Dart with Flutter.
+7. **Pitch in your own Innovative Ideas!**  
+*Maximum Ideas to be selected for this project:* 5
 ## rake_new2
 
 * *Project link :* https://github.com/BALaka-18/rake_new2
