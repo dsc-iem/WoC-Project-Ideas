@@ -32,7 +32,7 @@
 ## Python Reverse Shell
 
 * *Project link:* https://github.com/whokilleddb/Reverse-Shell
-* *Mentors:* [Debjeet Banerjee](https://github.com/whokilleddb/Reverse-Shell)
+* *Mentors:* [Debjeet Banerjee](https://github.com/whokilleddb/Reverse-Shell), [Deeptendu Santra](https://github.com/Dsantra92)
 
 >Reverse Shell For Command And Control with Extended Functionality
 
