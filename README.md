@@ -5,7 +5,7 @@
 ## Fake-Stream
 
 * *Project link:* https://github.com/Nibba2018/Fake-Stream
-* *Mentors:* [Soham Biswas](https://github.com/Nibba2018)
+* *Mentors:* [Soham Biswas](https://github.com/Nibba2018), [Divya Prakash](https://github.com/divyake)
 
 >Allows infinite streaming of a video as webcam output for different applications like Zoom, Skype etc.
 
@@ -21,7 +21,7 @@
 
       * Tech Stack: OBS Documentation and Batch Scripting.
 
-  3. **Adding SDK for Python or C:** Fake stream is implemented in OS specific shell scripts. Having a simple SDK will allow users to simply import fake-stream and integrate it with their own scripts or programs. For now one can work on creating sdks for Linux only.
+  3. **Adding SDK for C or C++ or Python:** Fake stream is implemented in OS specific shell scripts. Having a simple SDK will allow users to simply import fake-stream and integrate it with their own scripts or programs. For now one can work on creating sdks for Linux only.
 
       * Tech Stack: FFMPEG libraries for C and Python.
 
