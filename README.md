@@ -66,7 +66,7 @@
 ## DSC-IEM Blogs
 
 * *Project link:* https://github.com/dsc-iem/blog
-* *Mentors:* [Aritra Sen](https://github.com/asrient)
+* *Mentors:* [Aritra Sen](https://github.com/asrient), [Mahak Makharia](https://github.com/mahakmakharia)
 
 ### Description
 
@@ -81,7 +81,7 @@ Blogging for our community, a blogging website where anyone can write blogs, rea
     * Tech Stack: Python, Django, HTML, CSS
  
 3. **Embedding youtube videos** Implement a way to embed youtube videos (oembed). Twitter, youtube and many others provide a way to embed their content into a webpage, called oembed. We dont allow authors to use iframes directly into their post and the embed html code that they provide is an iframe. We need to implement something like this module [pyembed-markdown](https://github.com/pyembed/pyembed-markdown) You can use this as a reference. We are not using this modules because it is not maintained anymore also it has some bugs that cause parsing youtube links too much time-consuming. We plan to parse the ombed links on the client side to reduce loading time. We can implement some apis that will take a youtube link and parse it to its appropriate html, once we get the html of each link we replace the links with the html on the client-side. We can ask the author to embed a youtube video like `{yt}(link to the video)` or similar and once the page is loaded, we look for such patterns and convert each of them to their html.
-    * Tech Stack: Python, Django, HTML, CSS
+    * Tech Stack: Python, JavaScript, jQuery
 
 4. **Pitch your own Idea!**
 
