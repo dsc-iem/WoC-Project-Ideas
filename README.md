@@ -32,7 +32,8 @@
 ## Python Reverse Shell
 
 * *Project link:* https://github.com/whokilleddb/Reverse-Shell
-* *Mentors:* [Debjeet Banerjee](https://github.com/whokilleddb/Reverse-Shell), [Deeptendu Santra](https://github.com/Dsantra92)
+* *Mentors:* [Debjeet Banerjee](https://github.com/whokilleddb) & [Deeptendu Santra](https://github.com/Dsantra92)
+
 
 >Reverse Shell For Command And Control with Extended Functionality
 
@@ -66,7 +67,7 @@
 ## DSC-IEM Blogs
 
 * *Project link:* https://github.com/dsc-iem/blog
-* *Mentors:* [Aritra Sen](https://github.com/asrient)
+* *Mentors:* [Aritra Sen](https://github.com/asrient) & [Mahak Makharia](https://github.com/mahakmakharia)
 
 ### Description
 
@@ -74,19 +75,48 @@ Blogging for our community, a blogging website where anyone can write blogs, rea
 
 ### Project Ideas
 
-1. A detailed page for visitors traffic for every blog post. 
-2. Add a footer for every page. 
-3. New layout of blog items for pages like popular, trending, new arrivals. 
-4. Show notifications on homepage when someone replies to your comment or likes, comments on your posts, along with a dismiss button (It should give a summary of all updates like 3 new like, 2 comments on this post etc) 
-5. Check image URLs format before saving (for profile image and blog picture) 
-6. Implement a way to embed items like a tweet or youtube video (oembed) 
-7. Style account related pages (AllAuth pages) like forgot password, connect social accounts
-8. **Pitch your own Idea!**
+1. **Visitors traffic page** A detailed page for visitors traffic for every blog post, the visitors count button on the blog page should take you to this page, only visible to the blog author. This page should list out `total visits`, `unique visits`, `visits this week`, `avg duration of a visit`, `top referer sites`, all these information can be derived or computed from `View` model of our database which is already implemented. You need to work on both backend and frontend, extract the values from the db and design the webpage showcasing the values.
+    * Tech Stack: Python, Django, HTML, CSS
+    
+2. **Notifications** Show notifications on homepage when someone replies to your comment or likes, comments on your posts, along with a dismiss button (It should give a summary of all updates like 3 new like, 2 comments on this post etc). A notification should be shown only once. To keep track of what notifications to show and dismiss, create a new db model called `Alerts` or similar, one possible implementation maybe: `user`: the one who will receive the notif, `type`: eg `blog.likes`, `blog`: reference blog post or `None`,`ref_user`: reference to the user who caused it or `None` eg: when user5 liked your post, blog will be ref to the post, and user will be yourself i.e author and ref_user will be user5. Again when someone follows you, blog will be set to None, ref_user will be the follower. Every time something happens like a follow, or like or comment a notif will be generated and a summary of all the notifications will be generated and shown to the user on their homepage. You may also create a separate detailed page for notifications along with the homepage banner if time permits.
+    * Tech Stack: Python, Django, HTML, CSS
+ 
+3. **Embedding youtube videos** Implement a way to embed youtube videos (oembed). Twitter, youtube and many others provide a way to embed their content into a webpage, called oembed. We dont allow authors to use iframes directly into their post and the embed html code that they provide is an iframe. We need to implement something like this module [pyembed-markdown](https://github.com/pyembed/pyembed-markdown) You can use this as a reference. We are not using this modules because it is not maintained anymore also it has some bugs that cause parsing youtube links too much time-consuming. We plan to parse the ombed links on the client side to reduce loading time. We can implement some apis that will take a youtube link and parse it to its appropriate html, once we get the html of each link we replace the links with the html on the client-side. We can ask the author to embed a youtube video like `{yt}(link to the video)` or similar and once the page is loaded, we look for such patterns and convert each of them to their html.
+    * Tech Stack: Python, JavaScript, jQuery
 
+4. **Pitch your own Idea!**
+
+*Maximum Ideas to be selected for this project:* 2
+
+## Text Sentiment Analysis
+
+* *Project link:* https://github.com/khanfarhan10/TextSentimentAnalysis
+* *Mentors:* [Farhan Hai Khan](https://github.com/khanfarhan10) & [Tannistha Pal](https://github.com/paltannistha)
+
+### Description
+
+Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Negative/Positive Content Detection and further classification accordingly to Overwhelming Speech, Appreciation Speech, Demoralising Speech and Hate Speech. Deployed on the Cloud using Streamlit on the Heroku Platform.
+
+### Project Ideas
+
+1. Add models with higher accuracies than the basic and intermediate ones provided with deployment (preferred : tensorflow 2.x, keras & pytorch DNNs). 
+      * Tech Stack: Python Deep Learning with NLP - Keras, Tensorflow , Pytorch etc.
+2. Better UI with customized look (in Flask). 
+      * Tech Stack: Python Flask with HTML5 & CSS3 for Frontend Support.
+3. Better utility tools for uploading a zipfile and getting an excel sheet with a workbook of respective txt files etc. 
+      * Tech Stack: Python Zipfile Handling, Pandas & Numpy.
+4. More analysis based improvement such as decorating nouns, verbs, etc. 
+      * Tech Stack: Python Core NLP : Training on Datasets.
+5. Providing utility applications such as summarization, paraphrasing etc. 
+      * Tech Stack: Python Utilities with NLP.
+6. Deploy to an Android App (Flutter).
+      * Tech Stack: Android Studio, Dart with Flutter.
+7. **Pitch in your own Innovative Ideas!**  
+*Maximum Ideas to be selected for this project:* 3
 ## rake_new2
 
 * *Project link :* https://github.com/BALaka-18/rake_new2
-* *Maintainer :* [Balaka Biswas](https://github.com/BALaka-18)
+* *Mentors :* [Balaka Biswas](https://github.com/BALaka-18) & [Aanisha Bhattacharya](https://github.com/Aanisha)
 
 >Python library that for simple and fast keyword extraction from any text.
 
