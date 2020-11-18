@@ -150,3 +150,28 @@ Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Ne
   4. **Pitch your own Idea!**
 
 *Maximum Ideas to be selected for this project:* 2
+
+
+## Virtual Annotation
+
+* *Project link :* https://github.com/itisdb/Virtual-Annotation.git
+* *Mentors :* [Dhritesh Bhagat] (https://github.com/itisdb)
+
+**Description :** This will be a service that would provide the feature of a Virtual camera to be chosen while on Live Stream. The features include live annotations of comic or text annotations on the video as per your expression. This is currently being developed using python for machine learning purpose and java script has been used to implement the web browser virtual camera service.
+
+
+### Project Ideas
+  1. **Gesture Recog**
+   Add more gestures in the AI model especially for recognition for Indian faces.(Specific details can be discussed)
+
+      * Tech Stack: Python
+
+  2. **Stand Alone feature** Implementing the source codes into a stand alone .exe that can be user friendly.
+      * Tech Stack: Python
+
+  3. **Deploy to an Android App (Flutter).**
+      * Tech Stack: Android Studio, Dart with Flutter.
+
+  4. **Pitch your own Idea!**
+
+*Maximum Ideas to be selected for this project:* 3
