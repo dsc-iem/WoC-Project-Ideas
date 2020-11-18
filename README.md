@@ -66,7 +66,7 @@
 ## DSC-IEM Blogs
 
 * *Project link:* https://github.com/dsc-iem/blog
-* *Mentors:* [Aritra Sen](https://github.com/asrient), [Mahak Makharia](https://github.com/mahakmakharia)
+* *Mentors:* [Aritra Sen](https://github.com/asrient) & [Mahak Makharia](https://github.com/mahakmakharia)
 
 ### Description
 
@@ -115,7 +115,7 @@ Text Sentiment Analysis in Python using Natural Language Processing (NLP) for Ne
 ## rake_new2
 
 * *Project link :* https://github.com/BALaka-18/rake_new2
-* *Maintainer :* [Balaka Biswas](https://github.com/BALaka-18)
+* *Mentors :* [Balaka Biswas](https://github.com/BALaka-18) & [Aanisha Bhattacharya](https://github.com/Aanisha)
 
 >Python library that for simple and fast keyword extraction from any text.
 
