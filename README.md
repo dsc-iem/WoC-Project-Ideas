@@ -1,6 +1,6 @@
 # WoC-Project-Ideas
 * A list of project ideas for [Winter of Code](https://winterofcode.com/) organized by DSC-NSEC.
-* Interested WoC participants can contact us on our [Discord](https://discord.gg/6vcMy5zvGD) server.
+* Interested WoC participants can contact us on our [Discord](https://discord.gg/VkyPTgjQWt) server.
 
 ## Fake-Stream
 
